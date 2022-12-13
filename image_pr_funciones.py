@@ -198,28 +198,28 @@ def totalvec(path,lista_path):
     VG_1.append(VG_)
     VB_1.append(VB_)
 
-    VR_1_T = []
-    VG_1_T = []
-    VB_1_T = []
+  VR_1_T = []
+  VG_1_T = []
+  VB_1_T = []
 
-    for i in range(len(VR_1)):
-      for j in range(len(VR_1[i])):
-        VR_1_T.append(VR_1[i][j])
+  for i in range(len(VR_1)):
+    for j in range(len(VR_1[i])):
+      VR_1_T.append(VR_1[i][j])
 
-    for i in range(len(VG_1)):
-      for j in range(len(VG_1[i])):
-        VG_1_T.append(VG_1[i][j])
+  for i in range(len(VG_1)):
+    for j in range(len(VG_1[i])):
+      VG_1_T.append(VG_1[i][j])
 
-    for i in range(len(VB_1)):
-      for j in range(len(VB_1[i])):
-        VB_1_T.append(VB_1[i][j])
+  for i in range(len(VB_1)):
+    for j in range(len(VB_1[i])):
+      VB_1_T.append(VB_1[i][j])
 
 
-    VR_1_T = np.asarray(VR_1_T)
-    VG_1_T = np.asarray(VG_1_T)
-    VB_1_T = np.asarray(VB_1_T)
+  VR_1_T = np.asarray(VR_1_T)
+  VG_1_T = np.asarray(VG_1_T)
+  VB_1_T = np.asarray(VB_1_T)
 
-    return (VR_1_T, VG_1_T, VB_1_T)
+  return (VR_1_T, VG_1_T, VB_1_T)
 
 #Este hace practicamente lo mismo que la función vectRGB_S, pero es como un segundo paso 
 #para asegurarse que todo funciona bien, este ya está comprobado que funciona bien 
